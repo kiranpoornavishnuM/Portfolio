@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <div id="loading"></div>
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -255,8 +258,8 @@ Things I've worked on              </span
                         href="assets/images/portfolio-03.jpg"
                        
                       ></a>
-                      <h4>Algo trading Bot</h4>
-                      <span>A system which will take trades purely based on data</span>
+                      <h4>Algo Trading</h4>
+                      <span>Working on various Trading Algorithms</span>
                     </figcaption>
                   </figure>
                 </div>
@@ -279,26 +282,22 @@ Things I've worked on              </span
                     </figcaption>
                   </figure>
                 </div>
-<!---------------------------------------------------------------------------
+
                 <div class="isotope-item" data-type="projects">
                   <figure class="snip1321">
                     <img
-                      src="assets/images/portfolio-05.jpg"
+                      src="assets/images/portfolio-05.png"
                       alt="sq-sample26"
                     />
                     <figcaption>
-                      <a
-                        href="assets/images/portfolio-05.jpg"
-                        data-lightbox="image-1"
-                        data-title="Caption"
-                        ><i class="fa fa-search"></i
-                      ></a>
-                      <h4>Fifth Awesome</h4>
-                      <span>Ut sollicitudin risus</span>
+                     
+                      <h4>Bitcoin Trading Bot</h4>
+                      <span>Trading algo with Binance API intergration<br>
+                      <a href="https://github.com/kiranpoornavishnuM/Simple-Bitcoin-Trading-Bot">Project Link</a></span>
                     </figcaption>
                   </figure>
                 </div>
-------------------------------------->
+
                 <div class="isotope-item" data-type="workshops">
                   <figure class="snip1321">
                     <img
@@ -382,6 +381,11 @@ Things I've worked on              </span
       $(window).scroll(function() {
         checkSection();
       });
+      
+jQuery(document).ready(function() {
+    jQuery('#loading').fadeOut(3000);
+});
+
     </script>
   </body>
 </html>
